@@ -7,4 +7,14 @@ module.exports = {
     filename: "main.js", // filename of output file
     path: path.resolve(__dirname, "dist"), // output directory name and path
   },
+  module: {
+    // specify loaders
+    rules: [
+      // specify files
+      {
+        test: /\.css$/, // use the css-loader for file imports that ends with .css
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
 };
