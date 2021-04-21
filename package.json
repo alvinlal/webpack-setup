@@ -7,16 +7,9 @@
     "start": "webpack serve --config webpack.dev.js --open --hot",
     "build": "webpack --config webpack.prod.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Colt/webpack-demo-app.git"
-  },
-  "author": "",
+
+  "author": "Alvin",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Colt/webpack-demo-app/issues"
-  },
-  "homepage": "https://github.com/Colt/webpack-demo-app#readme",
   "devDependencies": {
     "bootstrap": "^4.6.0",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
