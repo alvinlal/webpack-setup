@@ -7,10 +7,12 @@
     "start": "webpack serve --config webpack.dev.js --open --hot",
     "build": "webpack --config webpack.prod.js"
   },
-
   "author": "Alvin",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
     "bootstrap": "^4.6.0",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "css-loader": "^5.2.4",
